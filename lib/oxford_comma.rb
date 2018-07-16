@@ -10,6 +10,7 @@ def oxford_comma(array)
     shortened_array_string = array.join(", ")
     
     
+    
     full_string = shortened_array_string << ", and #{last_element}"
     
     
